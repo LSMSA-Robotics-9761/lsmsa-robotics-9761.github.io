@@ -3,9 +3,14 @@ title: Home
 nav_order: 0
 ---
 
-# Robotics Documentation
+# FRC 9761 Robotics Documentation
+{: .fs-9 }
 
-**For FRC Team 9761**
+For LSMSA Robotics 9761
+{: .fs-6 .fw-300 }
+
+{: .caution}
+This website is a work-in-progress. The documentation here is unfinished, and links may break as pages are moved around or deleted.
 
 There are a lot of important knowledge relevant to FRC Robotics that need to be passed on to other members and future years. To make things easier, this repository contains documentation for various aspects about the methodology that Team 9761 uses in FRC. This includes information in subjects like:
 
@@ -22,7 +27,7 @@ This website is hosted using [GitHub Pages](https://pages.github.com/) and is bu
 
 ## Contributing
 
-If there are any factual inaccuracies or you wish to add something to a page, you may contribute to the documentation by doing one of the following:
+If there are any factual inaccuracies or you wish to add something to a page, you may contribute to this documentation by doing one of the following:
 
 - **If you are on Team 9761 and are a member of the [LSMSA Robotics 9761](https://github.com/LSMSA-Robotics-9761) GitHub organization**, push a change to this repository.
 - **If you are on Team 9761 and are not in the GitHub organization**, make a pull request or get in contact with a team member who is in the GitHub organization.

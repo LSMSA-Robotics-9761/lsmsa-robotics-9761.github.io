@@ -1,6 +1,6 @@
-# Robotics Documentation
+# FRC 9761 Robotics Documentation
 
-**For FRC Team 9761**
+**For LSMSA Robotics 9761**
 
 There are a lot of important knowledge relevant to FRC Robotics that need to be passed on to other members and future years. To make things easier, this repository contains documentation for various aspects about the methodology that Team 9761 uses in FRC. This includes information in subjects like:
 
