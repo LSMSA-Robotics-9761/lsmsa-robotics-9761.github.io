@@ -55,7 +55,7 @@ The IDE used for programming the robot. Installs a separate copy of VS Code sepa
 [Documentation (official)](https://code.visualstudio.com/docs){: .btn .btn-blue-100}
 
 {: .tip-title}
-> Question: Why does it install a separate copy of VS Code?
+> Question: Why does WPILib install a separate copy of VS Code?
 >
 > - Official answer: "The offline installer sets up a separate copy of VS Code for WPILib development, even if you already have VS Code on your machine. This is done because some of the settings that make the WPILib setup work may break existing workflows if you use VS Code for other projects."
 > - Real answer: The people who make WPILib are too lazy to figure out how to use VS Code's [Profiles](https://code.visualstudio.com/docs/configure/profiles) feature. If you don't want to have multiple copies of VS Code on your computer, you can install the VS Code extensions into a separate profile on your main copy of VS Code by manually extracting and installing the extensions. See below for info on how to do that.
@@ -84,7 +84,6 @@ These are separate apps that are installed to your computer. They can be launche
 
 ##### Dashboards
 {: .no_toc }
-
 
 Apps that are used to read data from the robot. For more info, see [Choosing a Dashboard](https://docs.wpilib.org/en/stable/docs/software/dashboards/dashboard-intro.html)
 
@@ -182,7 +181,7 @@ Notably, we use Studica for the following devices:
 
 This is a list of helpful software that are used to manage physical hardware from different companies. Listed here are the hardware utility software for REV Robotics, CTR Electronics (Phoenix Tuner X), and Studica/Kauai Labs.
 
-### REV Hardware Client
+#### REV Hardware Client
 {: .no_toc }
 
 A utility app used to manage REV devices. It can update firmware for REV devices, manage configuration stored on those devices, and test a device while providing feedback via data and graphs (available via the [Telemetry Tab](https://docs.revrobotics.com/rev-hardware-client/ion/telemetry))
@@ -196,9 +195,8 @@ Notably, we use REV Hardware Client for the following devices:
 - [Power Distribution Hub](https://docs.revrobotics.com/rev-hardware-client/ion/power-distribution-hub)
 - [Pneumatic Hub](https://docs.revrobotics.com/rev-hardware-client/ion/pneumatic-hub)
 
-### Phoenix Tuner X
+#### Phoenix Tuner X
 {: .no_toc }
-
 
 A utility app for managing CTR Electronics devices. It can update firmware, manage configuration stored on those devices, test a device, and view data and graphs about a device.
 
@@ -217,7 +215,7 @@ Notably, we use Phoenix Tuner X for the following devices:
 
 - [CANcoder](https://v6.docs.ctr-electronics.com/en/stable/docs/hardware-reference/cancoder/index.html)
 
-### Studica Hardware Manager
+#### Studica Hardware Manager
 {: .no_toc }
 
 A utility app that can be used to configure and update Studica devices.
@@ -243,7 +241,7 @@ Notably, we use Studica Hardware Manager for the following devices:
 
 There are some software components that may not necessarily fit in any of the aforementioned categories or you may not end up using at all. They are listed here for breadth.
 
-### Microsoft Visual C++
+#### Microsoft Visual C++
 {: .no_toc }
 
 Microsoft Visual C++ (MSVC) is used when building projects with WPILib. Yes, it is also used for Java projects. You can read more info about this topic [here](https://docs.wpilib.org/en/stable/docs/software/advanced-gradlerio/jvm-runtime.html).
@@ -254,7 +252,7 @@ If you get an error complaining about an invalid MSVC runtime version and you've
 
 You will probably install the version for x64 architecture. If you're running 32-bit Windows, you'll want the version for x86 architecture.
 
-### balenaEtcher
+#### balenaEtcher
 {: .no_toc }
 
 This is an app used to flash image files onto hardware devices like flash drives and SD cards. In the context of FRC, it is used to flash the firmware for the roboRIO onto a microSD card. The guide for doing this is available [here](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-3/roborio2-imaging.html).

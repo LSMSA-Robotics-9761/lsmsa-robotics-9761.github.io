@@ -48,11 +48,14 @@ h3 {
 
 h4 {
   font-weight: 600;
+  text-transform: none !important;
   margin-top: 2.5em !important;
+  letter-spacing: normal !important;
 
   @include fs-4;
 }
 
 h5 {
-  @include fs-4;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
