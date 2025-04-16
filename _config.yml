@@ -1,0 +1,28 @@
+# Website settings
+title: FRC 9761 Docs
+description: >-
+  Documentation for FRC Team 9761
+domain: "lsmsa-robotics-9761.github.io"
+url: "https://lsmsa-robotics-9761.github.io/docs"
+baseurl: "/docs"
+
+# Config settings
+aux_links:
+  Repository:
+    - https://github.com/LSMSA-Robotics-9761/lsmsa-robotics-9761.github.io
+
+# Build settings
+theme: just-the-docs
+plugins:
+  - jekyll-feed
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
